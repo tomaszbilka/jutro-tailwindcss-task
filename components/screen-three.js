@@ -7,13 +7,13 @@ const ScreenThree = () => {
             <img
               src='./imgs/pills.svg'
               alr='download icon'
-              className='w-16 md:w-28 mt-8 md:mt-0'
+              className='w-16 md:w-28 mt-8 md:mt-0 animate-show'
             />
-            <h2 className="font-['Poppins'] md:text-5xl text-2xl font-bold text-black mb-10 mt-14">
+            <h2 className="font-['Poppins'] md:text-5xl text-2xl font-bold text-black mb-10 mt-14 animate-show">
               Otrzymaj receptę
             </h2>
             <div>
-              <p className='md:text-2xl text-base text-black'>
+              <p className='md:text-2xl text-base text-black animate-show'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
                 metus nec fringilla accumsan, risus sem sollicitudin lacus, ut

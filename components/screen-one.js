@@ -7,13 +7,13 @@ const ScreenOne = () => {
             <img
               src='./imgs/download.svg'
               alr='download icon'
-              className='w-16 md:w-28'
+              className='w-16 md:w-20 animate-show'
             />
-            <h2 className="font-['Poppins'] md:text-5xl text-2xl font-bold text-white mb-10 mt-14">
+            <h2 className="font-['Poppins'] md:text-5xl text-2xl font-bold text-white mb-10 mt-14 animate-show">
               Pobierz aplikację
             </h2>
             <div>
-              <p className='md:text-2xl text-base text-white'>
+              <p className='md:text-2xl text-base text-white animate-show'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
                 metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
@@ -24,7 +24,7 @@ const ScreenOne = () => {
               Pobierz aplikację
             </button>
           </div>
-          <div className='md:mt-12 mt-6  lg:pl-0 md:pl-10'>
+          <div className='md:mt-12 mt-6  lg:pl-0 md:pl-10 animate-show'>
             <img src='./imgs/phone-up.svg' alt='smartphone' />
           </div>
         </div>
